@@ -102,6 +102,10 @@ nav ul li a:hover::after{
 .about-title span{
     color: yellow;
 }
+.about-mail a{
+    text-decoration: none;
+    color: white;
+}
 .about-educations-skills{
     display: flex;
     margin: 20px 0 ;
