@@ -7,34 +7,15 @@
     object-fit: cover;
 }
 body{
-    /* overflow-x: hidden; */
     background: black;
     color: white;
 }
-
-/* #hamburger{
-    display: none;
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-} */
-/* .hamburger{
-    display: none;
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    height: 55px ;
-    width: 55px;
-    background: linear-gradient(to bottom, black ,black 20%,transparent 20% , transparent 40% , black 40% ,black 60%,transparent 60%, transparent 80%, black 80%, black 100%);
-} */
-
 .header{
     width: 100%;
     min-height: 100vh;
     background-image: url(backgroundimage.jpg);
 
     background-size:100% 100% ;
-    /* background-position: center; */
     background-position: center;
 }
 .header-container{
@@ -42,7 +23,6 @@ body{
 }
 
 nav{
-    /* display: none; */
     background-color: rgba(0, 0, 0, 0.224);
     padding: 20px;
     position: fixed;
@@ -63,7 +43,6 @@ nav ul li a{
     position: relative;
 }
 nav ul li a::after{
-    /* display: none; */
     height: 3px;
     width: 0;
     content: '';
@@ -77,30 +56,9 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
-/* .navHam{
-    display: flex;
-} */
-/* .nav1{
-    display: none;
-}
-.nav2 {
-    position: fixed;
-    right: 0;
-    display: flex;
-    justify-content: flex-start;
-    width: 300px;
-    height: 100vh;
-    flex-direction: column;
-}
-.nav2 ul {
-    height: 100vh;
-}
-.nav2 ul li {
-    margin-top: 10px;
-} */
-
 .header-info{
     margin-top: 20%;
+    margin-left: 20%;
 }
 .header-info h1{
     font-size: 40px;
@@ -120,8 +78,6 @@ nav ul li a:hover::after{
 .about-container-one{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* justify-content: space-between; */
-    /* flex-wrap: wrap; */
 }
 .heading{
     display: flex;
@@ -132,20 +88,12 @@ nav ul li a:hover::after{
 .about-left{
     display: flex;
     justify-content: center;
-    /* width: 50%; */
+
 }
 .about-left img{
-    /* height: 100%; .about-image{
-    flex-basis: 35%;
-}*/
     width: 50%;
-    /* width: 400px; */
-    /* margin-left: 40%; */
 }
-/*  */
-/* .about-right{
-    /* flex-basis: 60%; */
-/* } */
+
 .about-title{
     font-size: 60px;
     font-weight: 500;
@@ -324,10 +272,8 @@ nav ul li a:hover::after{
         margin: 1rem ;
     }
     nav ul li{
-        /* margin: 10px 5px; */
         margin: 0;
         margin-right: 5px;
-        /* font-size: 0.5rem; */
     } 
     nav ul li a{
         font-size: 0.8rem;
